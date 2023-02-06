@@ -345,8 +345,8 @@ const Main1= ({reverse,value2,change1,value3,value4,value5,value6,value7,value10
             <Col className='col-md-12 text-black'>
             <p className='b para258' style={{'color':`${value10059}`}}>Введите сумму, которую вы отправите</p>
             <input id="name2" style={{'color':`white`, 'background-color':`${lgShow6}`}} className="b input-reset ba b--black-20 pa3 mb2 db w-100 tc text-center" type="number" aria-describedby="name-desc" onFocus={value10070} onChange={send2} />
-            <p className='b text-red text-center tc para3000' style={{'display':`${value501}`}} >Min. {value3} Amount is {lgShow233}</p>
-            <p className='b text-red text-center tc para3000' style={{'display':`${value1600}`}} >Please Enter a Amount</p>
+            <p className='b text-red text-center tc para3000' style={{'display':`${value501}`}}>минимальная {value3} сумма составляет {lgShow233} </p>
+            <p className='b text-red text-center tc para3000' style={{'display':`${value1600}`}} >введите сумму пожалуйста</p>
             </Col>
             </Row>
             
@@ -360,8 +360,8 @@ const Main1= ({reverse,value2,change1,value3,value4,value5,value6,value7,value10
             <Row className='mt-0'>
             <Col className='col-md-12 text-black'>
             <input id="name" className="input_address b  text-center tc input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc" placeholder={`Ваш ${value4} адрес`} onChange={event1} onFocus={value1006} />
-            <p className='b text-red text-center tc para3000' style={{'display':`${value500}`}} >Please Enter a Valid {value4} address</p>
-            <p className='b text-red text-center tc para3000' style={{'display':`${value1500}`}} >Please Enter a address</p>
+            <p className='b text-red text-center tc para3000' style={{'display':`${value500}`}} >введите действительный {value4} адрес</p>
+            <p className='b text-red text-center tc para3000' style={{'display':`${value1500}`}} >введите адрес Пожалуйста</p>
                 </Col>
             </Row>
 
